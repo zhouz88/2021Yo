@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        android:paddingLeft="10dp"
+        android:background="#ff0000"
+        android:paddingRight="10dp">
+        <EditText
+            android:hint="Your name"
+            android:id="@+id/edit"
+            android:textSize="32sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <Button
+        android:id="@+id/btn1"
+        android:text="MO"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:padding="24dp"
+        android:background="#3498DB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn2"
+        android:text="OR"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:padding="24dp"
+        android:background="#1ABC9C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn3"
+        android:text="YO YO"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:padding="24dp"
+        android:background="#34495E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn4"
+        android:text="OR"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:padding="24dp"
+        android:background="#1ABC9C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
